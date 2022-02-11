@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello World from Praveen",
+    message: "Hello Qt, from Docker!",
   });
 });
 
