@@ -7,10 +7,10 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello Qt, from Docker!",
+    message: "Hello Qt, from Docker! Happy coding!",
   });
 });
 
 app.listen(4000, () => {
-  console.log("Server started on port 4000");
+  console.log("Server started on port 4000 ....");
 });
