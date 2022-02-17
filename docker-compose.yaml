@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  firstapi:
+    build: ./first
+    container_name: first_container
+    ports:
+      - "4000:4000"
+    volumes: 
+      - ./first:/app
+      - /app/node_modules
